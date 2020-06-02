@@ -87,7 +87,7 @@ class PDFDocument {
     return new PDFPage(data, page);
   }
 
-  Future<Widget> getDouble({int page = 1}) async {
+  Widget getDouble({int page = 1}) {
     assert(page > 0);
     int a = page*2 - 2;
     if (a == 0 ) a ++;
