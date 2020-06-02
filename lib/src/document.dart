@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_plugin_pdf_viewer/src/page.dart';
@@ -85,6 +86,22 @@ class PDFDocument {
     return new PDFPage(data, page);
   }
 
+  Future<Widget> getDouble({int page = 1}) async {
+    assert(page > 0);
+    int a = page*2 - 2;
+    if (a == 0 ) a ++;
+    int b = a + 1;
+    if (page == 1 || page == count) {
+      return FuturePage(page: page, document: this);
+    }
+    return Row(
+      children: <Widget>[
+        FuturePage(page: a, document: this),
+        FuturePage(page: b, document: this),
+      ],
+    );
+  }
+
   // Stream all pages
   Observable<PDFPage> getAll() {
     return Future.forEach<PDFPage>(List(count), (i) async {
@@ -94,4 +111,27 @@ class PDFDocument {
       return new PDFPage(data, 1);
     }).asStream();
   }
+}
+
+class FuturePage extends StatelessWidget {
+  const FuturePage({
+    Key key,
+    this.page,
+    this.document
+  });
+
+  final int page;
+  final PDFDocument document;
+
+  @override
+  Widget build(BuildContext context) {
+    return
+      FutureBuilder(
+        future: document.get(page: page),
+        builder: (context, snapshot) {
+          return snapshot.data;
+        },
+      );
+  }
+
 }

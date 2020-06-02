@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25dbd07-759c-41ff-b4dd-eb33ccbe59a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/document.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/document.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,9 +181,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/flutter" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/flutter/flutter/bin/cache/dart-sdk" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -243,18 +241,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1146" y="219" width="494" height="558" key="DetectedRootsChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591028352550" />
-    <state x="1076" y="229" width="629" height="503" key="FileChooserDialogImpl" timestamp="1591028313058">
+    <state x="1074" y="211" width="629" height="503" key="FileChooserDialogImpl" timestamp="1591117185681">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1076" y="229" width="629" height="503" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591028313058" />
-    <state x="880" y="68" width="1028" height="835" key="SettingsEditor" timestamp="1591028429047">
+    <state x="1074" y="211" width="629" height="503" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591117185681" />
+    <state x="876" y="32" width="1028" height="835" key="SettingsEditor" timestamp="1591117227983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="880" y="68" width="1028" height="835" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591028429047" />
+    <state x="876" y="32" width="1028" height="835" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591117227983" />
     <state x="1025" y="262" width="804" height="518" key="Vcs.Push.Dialog.v2" timestamp="1591028694815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1025" y="262" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591028694815" />
+    <state x="635" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1591117360754">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="635" y="336" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591117360754" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
