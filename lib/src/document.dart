@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:flutter_plugin_pdf_viewer/src/page.dart';
@@ -129,7 +130,10 @@ class FuturePage extends StatelessWidget {
       FutureBuilder(
         future: document.get(page: page),
         builder: (context, snapshot) {
-          return snapshot.data;
+          if (snapshot.connectionState == ConnectionState.done) {
+            return snapshot.data;
+          }
+          return CircularProgressIndicator();
         },
       );
   }

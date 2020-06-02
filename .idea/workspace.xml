@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25dbd07-759c-41ff-b4dd-eb33ccbe59a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/document.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/document.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591028688859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added double pages">
+      <created>1591120637660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591120637660</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -230,13 +234,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed zoomable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed zoomable" />
+    <MESSAGE value="Added double pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added double pages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1070" y="103" width="715" height="836" key="CommitChangelistDialog2" timestamp="1591028688709">
+    <state x="1068" y="85" width="715" height="836" key="CommitChangelistDialog2" timestamp="1591120637401">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1070" y="103" width="715" height="836" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591028688709" />
+    <state x="1068" y="85" width="715" height="836" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1591120637401" />
     <state x="1146" y="219" width="494" height="558" key="DetectedRootsChooserDialog" timestamp="1591028352550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -249,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="876" y="32" width="1028" height="835" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591117227983" />
-    <state x="1025" y="262" width="804" height="518" key="Vcs.Push.Dialog.v2" timestamp="1591028694815">
+    <state x="1023" y="244" width="804" height="518" key="Vcs.Push.Dialog.v2" timestamp="1591120640392">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1025" y="262" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591028694815" />
+    <state x="1023" y="244" width="804" height="518" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1591120640392" />
     <state x="635" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1591117360754">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
