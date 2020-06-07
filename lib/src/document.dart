@@ -96,6 +96,7 @@ class PDFDocument {
       return FuturePage(page: page, document: this);
     }
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         FuturePage(page: a, document: this),
         FuturePage(page: b, document: this),
