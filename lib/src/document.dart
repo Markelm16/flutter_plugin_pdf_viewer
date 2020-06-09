@@ -89,7 +89,7 @@ class PDFDocument {
 
   Future<FileImage> getProvider({int page = 1}) async {
     assert(page > 0);
-    var data = await _channel.invokeMethod('getPage', {'filepath': _filePath, 'pageNumber': page});
+    var data = await _channel.invokeMethod('getPage', {'filePath': _filePath, 'pageNumber': page});
     return FileImage(File(data));
   }
 
