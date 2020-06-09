@@ -87,6 +87,12 @@ class PDFDocument {
     return new PDFPage(data, page);
   }
 
+  Future<FileImage> getProvider({int page = 1}) async {
+    assert(page > 0);
+    var data = await _channel.invokeMethod('getPage', {'filepath': _filePath, 'pageNumber': page});
+    return FileImage(File(data));
+  }
+
   Widget getDouble({int page = 1}) {
     assert(page > 0);
     int a = page*2 - 2;
